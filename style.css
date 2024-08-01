@@ -10,6 +10,9 @@ h1 {font-family: "Rubik Dirt", sans-serif;
 .center-text{
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
 .ulnav{
     list-style-type: none;
     margin: 0;
@@ -17,6 +20,20 @@ h1 {font-family: "Rubik Dirt", sans-serif;
 }
 li{
     display: inline;
-    background-color: #acc992;
-    color: #464E2e;
+    a:link{
+        color: #464E2e;
+        background-color: #acc992;
+    }
+    a:visited{
+        color: #464E2e;
+        background-color: #acc992;
+    }
+    a:hover{
+        color: #E9E5D6;
+        background-color: #464E2e;
+    }
+    a:active{
+        color: #E9E5D6;
+        background-color: #464E2e;
+    }
 }
