@@ -1,8 +1,22 @@
+html{
+    background-color: #E9E5D6
+}
 *{font-family: sans-serif;
 }
 h1 {font-family: "Rubik Dirt", sans-serif;
     font-size: 3rem;
+    color: #362706;
 }
 .center-text{
     text-align: center;
+}
+.ulnav{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+li{
+    display: inline;
+    background-color: #acc992;
+    color: #464E2e;
 }
