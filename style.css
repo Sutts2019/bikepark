@@ -4,16 +4,24 @@ html{
 *{font-family: sans-serif;
 }
 h1 {font-family: "Rubik Dirt", sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #362706;
+}
+.navstyle{
+    background: #acc992;
+    font-weight: bold;
+
 }
 a{
     text-decoration: none;
 }
-.ulnav{
+#ulnav{
     list-style-type: none;
     margin: 0;
-    padding:0;
+    padding: 0;
+}
+#ulnav li{
+    margin: 5px;
 }
 li{
     display: inline;
@@ -33,4 +41,7 @@ li{
         color: #E9E5D6;
         background-color: #464E2e;
     }
+}
+.menu{
+    background-color: #acc992;
 }
