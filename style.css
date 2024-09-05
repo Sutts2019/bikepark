@@ -8,20 +8,14 @@ h1 {font-family: "Rubik Dirt", sans-serif;
     color: #362706;
 }
 .navstyle{
-    background: #acc992;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    background-color: #acc992;
     font-weight: bold;
-
 }
 a{
     text-decoration: none;
-}
-#ulnav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-#ulnav li{
-    margin: 5px;
 }
 li{
     display: inline;
