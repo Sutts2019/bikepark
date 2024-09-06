@@ -7,11 +7,15 @@ h1 {font-family: "Rubik Dirt", sans-serif;
     font-size: 3.5rem;
     color: #362706;
 }
+h2 {
+    font-size: 1rem;
+}
 .navstyle{
     display: flex;
     padding: 10px;
     gap: 10px;
     background-color: #acc992;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 a{
